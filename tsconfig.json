@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"lib": ["DOM", "ESNext"],
+		"jsx": "react-jsx",
+		"noEmit": false,
+		"isolatedModules": true,
+		"strict": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true
+	},
+	"include": ["src/**/**/*"],
+	"exclude": ["node_modules", "dist"],
+	"ts-node": {
+		"compilerOptions": {
+			"module": "CommonJS"
+		}
+	}
+}
