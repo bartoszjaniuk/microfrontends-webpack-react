@@ -7,7 +7,7 @@ export enum NodeEnvironment {
 
 export const appPaths = {
 	src: path.resolve(process.cwd(), "src"),
-	entry: path.resolve(process.cwd(), "src/bootstrap.tsx"),
+	entry: path.resolve(process.cwd(), "src/index.ts"),
 	dist: path.resolve(process.cwd(), "dist"),
 	template: path.resolve(process.cwd(), "public/index.html"),
 };
